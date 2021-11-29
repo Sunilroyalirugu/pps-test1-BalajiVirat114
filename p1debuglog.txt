@@ -22,3 +22,4 @@ Enter two numbers:12
 Continuing.
 1212 is 24[Inferior 1 (process 68) exited normally]
 (gdb) 
+
