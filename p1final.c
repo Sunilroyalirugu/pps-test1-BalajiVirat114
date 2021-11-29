@@ -7,4 +7,5 @@ scanf("%d%d",&a,&b);
 c=a+b;
 printf("%d%d is %d",a,b,c);
 return 0;
+  
 }
