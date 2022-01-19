@@ -29,4 +29,5 @@ int main()
   cmp(x,y,z,&l);
   output(l);
   return 0;
+  
   }
