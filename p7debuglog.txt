@@ -1,0 +1,55 @@
+(gdb) b main
+Breakpoint 1 at 0x772: file p7original.c, line 3.
+(gdb) r
+Starting program: /home/runner/pps-test1-akshith1212-8/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+
+Breakpoint 1, main () at p7original.c:3
+3   {
+(gdb) n
+4     int Number , i , sum = 0;
+(gdb) n
+6     printf("\n Please enter any Integer value\n");
+(gdb) n
+
+ Please enter any Integer value
+7     scanf("%d",&Number);
+(gdb) n
+7
+8     for(i = 1; i<= Number;i++)
+(gdb) n
+10         sum =sum + i;
+(gdb) n
+8     for(i = 1; i<= Number;i++)
+(gdb) n
+10         sum =sum + i;
+(gdb) n
+8     for(i = 1; i<= Number;i++)
+(gdb) n
+10         sum =sum + i;
+(gdb) n
+8     for(i = 1; i<= Number;i++)
+(gdb) n
+10         sum =sum + i;
+(gdb) n
+8     for(i = 1; i<= Number;i++)
+(gdb) n
+10         sum =sum + i;
+(gdb) n
+8     for(i = 1; i<= Number;i++)
+(gdb) n
+10         sum =sum + i;
+(gdb) n
+8     for(i = 1; i<= Number;i++)
+(gdb) n
+10         sum =sum + i;
+(gdb) n
+8     for(i = 1; i<= Number;i++)
+(gdb) n
+12   printf("sum of natural Numbers =%d", sum);
+(gdb) n
+13   return 0; 
+(gdb) c
+Continuing.
+sum of natural Numbers =28[Inferior 1 (process 733) exited normally]
+(gdb) 
